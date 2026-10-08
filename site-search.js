@@ -7,7 +7,7 @@
     { title: 'Recordings, captions, and transcripts', detail: 'Enable captions, record appropriately, and share meeting records', url: 'recordings-captions.html', terms: 'accessibility closed caption more cloud recording email viewers' },
     { title: 'Request a Zoom Pro license', detail: 'Open the Shenandoah TeamDynamix request form', url: 'resources.html', terms: 'pro licence licensed request form teamdynamix account' },
     { title: 'Schedule a Zoom Room', detail: 'Use Google Calendar, a new meeting ID, or your personal Zoom link', url: 'schedule-zoom-room.html', terms: 'calendar add-on plugin reserve invite room' },
-    { title: 'Find a Zoom Room', detail: 'Room directory under construction', url: 'room-directory.html', terms: 'location inventory list conference classroom building room' },
+    { title: 'Find a Zoom Room', detail: 'Browse Loudoun and Winchester rooms by site or area, building, type, or controls', url: 'room-directory.html', terms: 'location inventory list conference classroom site area downtown building room loudoun scholar plaza winchester valley health medical campus hpb 2001' },
     { title: 'Choose Room Controls', detail: 'Identify the room interface in front of you', url: 'rooms.html', terms: 'touch panel conference classroom qsys device' },
     { title: 'Connect and present from a Mac', detail: 'Use the room computer, USB-C or HDMI, or Apple TV', url: 'connect-present.html', terms: 'laptop projector television airplay screen mirroring wired lectern source' },
     { title: 'Mirror or extend a Mac display', detail: 'Choose between showing the same screen or using a second desktop', url: 'connect-present.html#display-mode', terms: 'full screen background wallpaper presentation notes projector television displays' },
@@ -20,7 +20,7 @@
     { title: 'Printable PDF guides', detail: 'View, download, or print Zoom and room-control quick starts', url: 'resources.html', terms: 'resources print download handout one page two sided' },
     { title: 'Zoom training', detail: 'Planned Zoom Basics, hosting, and Zoom Room training', url: 'resources.html#training', terms: 'workshop class guided learn course' },
     { title: 'Need help or support', detail: 'Find support information and assistance', url: 'resources.html#support', terms: 'contact assistance problem service desk' },
-    { title: 'Download Zoom Workplace', detail: 'Open the official Zoom Download Center', url: 'https://zoom.us/download', terms: 'install client application app update' }
+    { title: 'Download Zoom Workplace', detail: 'Get Zoom for a computer, iPhone, iPad, or Android device', url: 'zoom-workplace.html', terms: 'install client application app update mobile phone tablet ios ipad google play app store' }
   ];
 
   const header = document.querySelector('.header');

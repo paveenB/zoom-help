@@ -1,6 +1,126 @@
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Find a Zoom Room | Shenandoah Zoom Help</title><meta name="description" content="Find Shenandoah University Zoom Rooms and review their controls, connections, and presentation capabilities."><link rel="stylesheet" href="room-pages.css"><script src="site-search.js" defer></script></head>
-<body><div class="topbar"><div class="wrap"><span>Shenandoah University Zoom Help</span><a href="https://su.zoom.us" target="_blank" rel="noopener">Open su.zoom.us</a></div></div><header class="header"><nav class="nav wrap"><a class="brand" href="index.html" aria-label="Zoom Help home">ZOOM <span>ROOM HELP</span></a><a href="index.html">Home</a><a href="rooms.html">Room controls</a><a href="connect-present.html">Connect a Mac</a><a href="schedule-zoom-room.html">Schedule a room</a></nav></header>
-<section class="hero"><div class="wrap"><span class="eyebrow">Room directory</span><h1>Find a Zoom Room</h1><p>A searchable directory of Zoom-enabled classrooms and conference rooms is being prepared.</p></div></section>
-<main class="main wrap"><section class="section placeholder"><span class="status">Under construction</span><h2>Room directory coming soon</h2><p>Verified building, room, controller, connection, and equipment information will be added here after the room inventory is complete.</p><div class="actions"><a class="button" href="rooms.html">Choose room controls</a><a class="button secondary" href="connect-present.html">Connect and present</a></div></section></main>
-<a class="floating-help" href="resources.html#support">Need help or training?</a><footer class="footer"><div class="wrap"><span>Shenandoah Zoom Room directory</span><a href="rooms.html">Back to room controls</a></div></footer></body></html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Find a Zoom Room | Shenandoah Zoom Help</title>
+  <meta name="description" content="Find Shenandoah University Zoom Rooms and review their controls, connections, and presentation capabilities.">
+  <link rel="stylesheet" href="room-pages.css">
+  <script src="site-search.js" defer></script>
+</head>
+<body>
+  <div class="topbar"><div class="wrap"><span>Shenandoah University Zoom Help</span><a href="https://su.zoom.us" target="_blank" rel="noopener">Open su.zoom.us</a></div></div>
+  <header class="header"><nav class="nav wrap"><a class="brand" href="index.html" aria-label="Zoom Help home">ZOOM <span>ROOM HELP</span></a><a href="index.html">Home</a><a href="rooms.html">Room controls</a><a href="connect-present.html">Connect a Mac</a><a href="schedule-zoom-room.html">Schedule a room</a></nav></header>
+
+  <section class="hero"><div class="wrap"><span class="eyebrow">Room directory</span><h1>Find a Zoom Room</h1><p>Start with Loudoun or Winchester, then narrow the directory by site or area, building when applicable, room type, or control interface.</p></div></section>
+
+  <main class="main wrap">
+    <section class="section">
+      <div class="directory-notice"><span class="status">Test directory</span><div><strong>These entries are for layout and search testing.</strong><span>Room details will be verified and expanded before the directory is published as a complete inventory.</span></div></div>
+    </section>
+
+    <section class="section" aria-labelledby="directory-heading">
+      <h2 id="directory-heading">Rooms</h2>
+      <div class="directory-filters">
+        <label>Search rooms<input id="room-search" type="search" placeholder="Site, building, room, connection…" autocomplete="off"></label>
+        <label>Location<select id="location-filter"><option value="">All locations</option><option value="Loudoun">Loudoun</option><option value="Winchester">Winchester</option></select></label>
+        <label>Room type<select id="type-filter"><option value="">All room types</option><option value="Classroom">Classroom</option><option value="Conference room">Conference room</option><option value="To be verified">To be verified</option></select></label>
+        <label>Building / site<select id="building-filter"><option value="">All buildings and sites</option><option value="Health Professions Building">Health Professions Building</option><option value="Scholar Plaza">Scholar Plaza</option></select></label>
+      </div>
+
+      <p class="directory-count" id="directory-count" aria-live="polite">Showing 15 test rooms</p>
+      <div class="directory-table">
+        <table>
+          <thead><tr><th scope="col">Location and site/area</th><th scope="col">Building and room</th><th scope="col">Room type</th><th scope="col">Room / Zoom controls</th><th scope="col">Connections and features</th><th scope="col">Guide</th></tr></thead>
+          <tbody id="room-list">
+            <tr data-location="Winchester" data-building="Health Professions Building" data-type="Classroom" data-control="Zoom Room + Separate Room Controls" data-search="winchester valley health medical campus health professions building hpb 1008 first floor classroom room controls zoom app amx">
+              <td><strong>Winchester</strong><span>Valley Health Medical Campus</span></td><td><strong>Health Professions Building</strong><span>HPB 1008 · 1st Floor</span></td><td>Classroom</td><td>Zoom Room + Separate Room Controls</td><td><div class="capability-list"><span class="capability">Room computer</span><span class="capability">Apple TV</span><span class="capability">Guest HDMI</span><span class="capability">USB-C adapter</span></div></td><td><a class="table-link" href="classroom-touch-panel.html">Open guide</a></td>
+            </tr>
+            <tr data-location="Winchester" data-building="Health Professions Building" data-type="Classroom" data-control="Zoom Room + Separate Room Controls" data-search="winchester valley health medical campus health professions building hpb 109 first floor classroom room controls zoom app amx">
+              <td><strong>Winchester</strong><span>Valley Health Medical Campus</span></td><td><strong>Health Professions Building</strong><span>HPB 109 · 1st Floor</span></td><td>Classroom</td><td>Zoom Room + Separate Room Controls</td><td><div class="capability-list"><span class="capability">Room computer</span><span class="capability">Apple TV</span><span class="capability">Guest HDMI</span><span class="capability">USB-C adapter</span></div></td><td><a class="table-link" href="classroom-touch-panel.html">Open guide</a></td>
+            </tr>
+            <tr data-location="Winchester" data-building="Health Professions Building" data-type="Classroom" data-control="Zoom Room + Separate Room Controls" data-search="winchester valley health medical campus health professions building hpb 118 first floor classroom room controls zoom app amx">
+              <td><strong>Winchester</strong><span>Valley Health Medical Campus</span></td><td><strong>Health Professions Building</strong><span>HPB 118 · 1st Floor</span></td><td>Classroom</td><td>Zoom Room + Separate Room Controls</td><td><div class="capability-list"><span class="capability">Room computer</span><span class="capability">Apple TV</span><span class="capability">Guest HDMI</span><span class="capability">USB-C adapter</span></div></td><td><a class="table-link" href="classroom-touch-panel.html">Open guide</a></td>
+            </tr>
+            <tr data-location="Winchester" data-building="Health Professions Building" data-type="Classroom" data-control="Zoom Room + Integrated Room Controls" data-search="winchester valley health medical campus health professions building hpb 2001 classroom integrated zoom room room controls toggle qsys room computer apple tv guest usb-c">
+              <td><strong>Winchester</strong><span>Valley Health Medical Campus</span></td><td><strong>Health Professions Building</strong><span>HPB 2001 · 2nd Floor</span></td><td>Classroom</td><td>Zoom Room + Integrated Room Controls</td><td><div class="capability-list"><span class="capability">Room computer</span><span class="capability">Apple TV</span><span class="capability">Guest USB-C</span><span class="capability">Video + charging</span></div></td><td><a class="table-link" href="integrated-zoom-room.html">Open guide</a></td>
+            </tr>
+            <tr data-location="Winchester" data-building="Health Professions Building" data-type="Classroom" data-control="Zoom Room + Integrated Room Controls" data-search="winchester valley health medical campus health professions building hpb 2002 second floor classroom integrated zoom room room controls toggle qsys">
+              <td><strong>Winchester</strong><span>Valley Health Medical Campus</span></td><td><strong>Health Professions Building</strong><span>HPB 2002 · 2nd Floor</span></td><td>Classroom</td><td>Zoom Room + Integrated Room Controls</td><td><div class="capability-list"><span class="capability">Room computer</span><span class="capability">Apple TV</span><span class="capability">Guest USB-C</span><span class="capability">Video + charging</span></div></td><td><a class="table-link" href="integrated-zoom-room.html">Open guide</a></td>
+            </tr>
+            <tr data-location="Winchester" data-building="Health Professions Building" data-type="Classroom" data-control="Zoom Room + Integrated Room Controls" data-search="winchester valley health medical campus health professions building hpb 2003 second floor classroom integrated zoom room room controls toggle qsys">
+              <td><strong>Winchester</strong><span>Valley Health Medical Campus</span></td><td><strong>Health Professions Building</strong><span>HPB 2003 · 2nd Floor</span></td><td>Classroom</td><td>Zoom Room + Integrated Room Controls</td><td><div class="capability-list"><span class="capability">Room computer</span><span class="capability">Apple TV</span><span class="capability">Guest USB-C</span><span class="capability">Video + charging</span></div></td><td><a class="table-link" href="integrated-zoom-room.html">Open guide</a></td>
+            </tr>
+            <tr data-location="Winchester" data-building="Health Professions Building" data-type="Classroom" data-control="Zoom Room + Separate Room Controls" data-search="winchester valley health medical campus health professions building hpb 255 second floor classroom room controls zoom app amx">
+              <td><strong>Winchester</strong><span>Valley Health Medical Campus</span></td><td><strong>Health Professions Building</strong><span>HPB 255 · 2nd Floor</span></td><td>Classroom</td><td>Zoom Room + Separate Room Controls</td><td><div class="capability-list"><span class="capability">Room computer</span><span class="capability">Apple TV</span><span class="capability">Guest HDMI</span><span class="capability">USB-C adapter</span></div></td><td><a class="table-link" href="classroom-touch-panel.html">Open guide</a></td>
+            </tr>
+            <tr data-location="Winchester" data-building="Health Professions Building" data-type="Classroom" data-control="Zoom Room + Separate Room Controls" data-search="winchester valley health medical campus health professions building hpb 256 second floor classroom room controls zoom app amx">
+              <td><strong>Winchester</strong><span>Valley Health Medical Campus</span></td><td><strong>Health Professions Building</strong><span>HPB 256 · 2nd Floor</span></td><td>Classroom</td><td>Zoom Room + Separate Room Controls</td><td><div class="capability-list"><span class="capability">Room computer</span><span class="capability">Apple TV</span><span class="capability">Guest HDMI</span><span class="capability">USB-C adapter</span></div></td><td><a class="table-link" href="classroom-touch-panel.html">Open guide</a></td>
+            </tr>
+            <tr data-location="Winchester" data-building="Health Professions Building" data-type="Classroom" data-control="Zoom Room + Separate Room Controls" data-search="winchester valley health medical campus health professions building hpb 268 second floor classroom room controls zoom app amx">
+              <td><strong>Winchester</strong><span>Valley Health Medical Campus</span></td><td><strong>Health Professions Building</strong><span>HPB 268 · 2nd Floor</span></td><td>Classroom</td><td>Zoom Room + Separate Room Controls</td><td><div class="capability-list"><span class="capability">Room computer</span><span class="capability">Apple TV</span><span class="capability">Guest HDMI</span><span class="capability">USB-C adapter</span></div></td><td><a class="table-link" href="classroom-touch-panel.html">Open guide</a></td>
+            </tr>
+            <tr data-location="Loudoun" data-building="Scholar Plaza" data-type="Classroom" data-control="Zoom Room + Separate Room Controls" data-search="loudoun scholar plaza lou 202 second floor classroom room controls zoom app amx">
+              <td><strong>Loudoun</strong><span>Scholar Plaza</span></td><td><strong>LOU 202</strong><span>2nd Floor</span></td><td>Classroom</td><td>Zoom Room + Separate Room Controls</td><td><div class="capability-list"><span class="capability">Room computer</span><span class="capability">Apple TV</span><span class="capability">Guest HDMI</span><span class="capability">USB-C adapter</span></div></td><td><a class="table-link" href="classroom-touch-panel.html">Open guide</a></td>
+            </tr>
+            <tr data-location="Loudoun" data-building="Scholar Plaza" data-type="Conference room" data-control="Zoom Room + Logitech Tap IP" data-search="loudoun scholar plaza lou 238 conference room second floor zoom room logitech tap ip rally bar usb-c hdmi connection sharing presentation">
+              <td><strong>Loudoun</strong><span>Scholar Plaza</span></td><td><strong>LOU 238</strong><span>2nd Floor</span></td><td>Conference room</td><td>Zoom Room + Logitech Tap IP</td><td><div class="capability-list"><span class="capability">Logitech Rally Bar</span><span class="capability">Guest USB-C</span><span class="capability">HDMI connection</span><span class="capability">Primary use: sharing</span></div></td><td><a class="table-link" href="logitech-tap.html">Open guide</a></td>
+            </tr>
+            <tr data-location="Loudoun" data-building="Scholar Plaza" data-type="Classroom" data-control="Zoom Room + Separate Room Controls" data-search="loudoun scholar plaza lou 245 second floor classroom room controls zoom app amx">
+              <td><strong>Loudoun</strong><span>Scholar Plaza</span></td><td><strong>LOU 245</strong><span>2nd Floor</span></td><td>Classroom</td><td>Zoom Room + Separate Room Controls</td><td><div class="capability-list"><span class="capability">Room computer</span><span class="capability">Apple TV</span><span class="capability">Guest HDMI</span><span class="capability">USB-C adapter</span></div></td><td><a class="table-link" href="classroom-touch-panel.html">Open guide</a></td>
+            </tr>
+            <tr data-location="Loudoun" data-building="Scholar Plaza" data-type="Classroom" data-control="Zoom Room + Separate Room Controls" data-search="loudoun scholar plaza lou 248 second floor classroom room controls zoom app amx">
+              <td><strong>Loudoun</strong><span>Scholar Plaza</span></td><td><strong>LOU 248</strong><span>2nd Floor</span></td><td>Classroom</td><td>Zoom Room + Separate Room Controls</td><td><div class="capability-list"><span class="capability">Room computer</span><span class="capability">Apple TV</span><span class="capability">Guest HDMI</span><span class="capability">USB-C adapter</span></div></td><td><a class="table-link" href="classroom-touch-panel.html">Open guide</a></td>
+            </tr>
+            <tr data-location="Loudoun" data-building="Scholar Plaza" data-type="Classroom" data-control="Zoom Room + Separate Room Controls" data-search="loudoun scholar plaza lou 249 second floor classroom room controls zoom app amx">
+              <td><strong>Loudoun</strong><span>Scholar Plaza</span></td><td><strong>LOU 249</strong><span>2nd Floor</span></td><td>Classroom</td><td>Zoom Room + Separate Room Controls</td><td><div class="capability-list"><span class="capability">Room computer</span><span class="capability">Apple TV</span><span class="capability">Guest HDMI</span><span class="capability">USB-C adapter</span></div></td><td><a class="table-link" href="classroom-touch-panel.html">Open guide</a></td>
+            </tr>
+            <tr data-location="Loudoun" data-building="Scholar Plaza" data-type="Classroom" data-control="Zoom Room + Separate Room Controls" data-search="loudoun scholar plaza lou 250 second floor classroom room controls zoom app amx">
+              <td><strong>Loudoun</strong><span>Scholar Plaza</span></td><td><strong>LOU 250</strong><span>2nd Floor</span></td><td>Classroom</td><td>Zoom Room + Separate Room Controls</td><td><div class="capability-list"><span class="capability">Room computer</span><span class="capability">Apple TV</span><span class="capability">Guest HDMI</span><span class="capability">USB-C adapter</span></div></td><td><a class="table-link" href="classroom-touch-panel.html">Open guide</a></td>
+            </tr>
+            <tr id="directory-empty" hidden><td class="directory-empty" colspan="6"><strong>No rooms match those filters.</strong><span>Try another location, site, building, room number, or control type.</span></td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="section directory-next"><h2>Not sure which room guide to use?</h2><p>Open the room-controls page and choose the interface that matches the touch panel in front of you.</p><div class="actions"><a class="button" href="rooms.html">Choose room controls</a><a class="button secondary" href="connect-present.html">Connect and present</a></div></section>
+  </main>
+
+  <a class="floating-help" href="resources.html#support">Need help or training?</a>
+  <footer class="footer"><div class="wrap"><span>Shenandoah Zoom Room directory</span><a href="rooms.html">Back to room controls</a></div></footer>
+
+  <script>
+    (() => {
+      const search = document.querySelector('#room-search');
+      const location = document.querySelector('#location-filter');
+      const type = document.querySelector('#type-filter');
+      const building = document.querySelector('#building-filter');
+      const rows = [...document.querySelectorAll('#room-list tr[data-type]')];
+      const empty = document.querySelector('#directory-empty');
+      const count = document.querySelector('#directory-count');
+
+      function filterRooms() {
+        const query = search.value.trim().toLowerCase();
+        let visible = 0;
+        rows.forEach(row => {
+          const searchableText = `${row.dataset.search} ${row.textContent}`.toLowerCase();
+          const matchesSearch = !query || searchableText.includes(query);
+          const matchesLocation = !location.value || row.dataset.location === location.value;
+          const matchesType = !type.value || row.dataset.type === type.value;
+          const matchesBuilding = !building.value || row.dataset.building === building.value;
+          row.hidden = !(matchesSearch && matchesLocation && matchesType && matchesBuilding);
+          if (!row.hidden) visible += 1;
+        });
+        empty.hidden = visible !== 0;
+        count.textContent = visible === 1 ? 'Showing 1 test room' : `Showing ${visible} test rooms`;
+      }
+
+      search.addEventListener('input', filterRooms);
+      location.addEventListener('change', filterRooms);
+      type.addEventListener('change', filterRooms);
+      building.addEventListener('change', filterRooms);
+    })();
+  </script>
+</body>
+</html>
