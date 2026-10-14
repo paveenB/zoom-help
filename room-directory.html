@@ -15,10 +15,6 @@
   <section class="hero"><div class="wrap"><span class="eyebrow">Room directory</span><h1>Find a Zoom Room</h1><p>Start with Loudoun or Winchester, then narrow the directory by site or area, building when applicable, room type, or control interface.</p></div></section>
 
   <main class="main wrap">
-    <section class="section">
-      <div class="directory-notice"><span class="status">Test directory</span><div><strong>These entries are for layout and search testing.</strong><span>Room details will be verified and expanded before the directory is published as a complete inventory.</span></div></div>
-    </section>
-
     <section class="section" aria-labelledby="directory-heading">
       <h2 id="directory-heading">Rooms</h2>
       <div class="directory-filters">
@@ -28,7 +24,7 @@
         <label>Building / site<select id="building-filter"><option value="">All buildings and sites</option><option value="Health Professions Building">Health Professions Building</option><option value="Scholar Plaza">Scholar Plaza</option></select></label>
       </div>
 
-      <p class="directory-count" id="directory-count" aria-live="polite">Showing 15 test rooms</p>
+      <p class="directory-count" id="directory-count" aria-live="polite">Showing 15 rooms</p>
       <div class="directory-table">
         <table>
           <thead><tr><th scope="col">Location and site/area</th><th scope="col">Building and room</th><th scope="col">Room type</th><th scope="col">Room / Zoom controls</th><th scope="col">Connections and features</th><th scope="col">Guide</th></tr></thead>
@@ -113,7 +109,7 @@
           if (!row.hidden) visible += 1;
         });
         empty.hidden = visible !== 0;
-        count.textContent = visible === 1 ? 'Showing 1 test room' : `Showing ${visible} test rooms`;
+        count.textContent = visible === 1 ? 'Showing 1 room' : `Showing ${visible} rooms`;
       }
 
       search.addEventListener('input', filterRooms);
