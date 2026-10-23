@@ -16,9 +16,8 @@
     { title: 'Share through the Zoom app', detail: 'Select the detected Room or enter the displayed sharing key', url: 'connect-present.html', terms: 'room code sharing key proximity mirror power point presenter notes desktop client' },
     { title: 'Logitech Tap conference room', detail: 'Use New Meeting, Join, Share, and conference-room controls', url: 'logitech-tap.html', terms: 'rally bar tap ip conference' },
     { title: 'Integrated Zoom Room', detail: 'Use the Zoom interface and Room Controls device selector', url: 'integrated-zoom-room.html', terms: 'room controls symbol select device source' },
-    { title: 'Classroom touch panel', detail: 'Use the separate classroom room-control screen', url: 'classroom-touch-panel.html', terms: 'classroom controls device selection' },
+    { title: 'Zoom Room with separate room controls', detail: 'Use Back to reach device, camera, and room-audio controls', url: 'classroom-touch-panel.html', terms: 'classroom amx controls device selection back button here other location camera volume zoom app' },
     { title: 'Printable PDF guides', detail: 'View, download, or print Zoom and room-control quick starts', url: 'resources.html', terms: 'resources print download handout one page two sided' },
-    { title: 'Zoom training', detail: 'Planned Zoom Basics, hosting, and Zoom Room training', url: 'resources.html#training', terms: 'workshop class guided learn course' },
     { title: 'Need help or support', detail: 'Find support information and assistance', url: 'resources.html#support', terms: 'contact assistance problem service desk' },
     { title: 'Download Zoom Workplace', detail: 'Get Zoom for a computer, iPhone, iPad, or Android device', url: 'zoom-workplace.html', terms: 'install client application app update mobile phone tablet ios ipad google play app store' }
   ];
